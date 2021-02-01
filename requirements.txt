@@ -3,3 +3,5 @@ django-crispy-forms==1.7.2
 django-filter==2.0.0
 pytz==2018.5
 pymysql
+mysql
+mysqlclient
