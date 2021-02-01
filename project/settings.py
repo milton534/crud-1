@@ -91,10 +91,10 @@ DATABASES = {
 		'PASSWORD':'milton534',
 		'HOST': 'matsuzawa505.mysql.pythonanywhere-services.com',
 		'PORT': '',
+    	'OPTIONS': {
+        	'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+    	},
     }
-    'OPTIONS': {
-        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-    },
 
 }
 
