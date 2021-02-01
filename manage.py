@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 import os
 import sys
-import pymysql
+#import pymysql
 import MySQLdb
 
-pymysql.version_info = (1, 4, 13, "final", 0)
-pymysql.install_as_MySQLdb()
+#pymysql.version_info = (1, 4, 13, "final", 0)
+#pymysql.install_as_MySQLdb()
 
 
 if __name__ == "__main__":
